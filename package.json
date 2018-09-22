@@ -1,0 +1,32 @@
+{
+  "name": "@porla-contrib/blocklist",
+  "version": "0.0.1",
+  "description": "A blocklist plugin for Porla.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/porla-contrib/blocklist.git"
+  },
+  "keywords": [
+    "porla",
+    "porla-plugin",
+    "blocklist"
+  ],
+  "author": "Viktor Elofsson <viktor@viktorelofsson.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/porla-contrib/blocklist/issues"
+  },
+  "homepage": "https://github.com/porla-contrib/blocklist#readme",
+  "dependencies": {
+    "request": "^2.88.0",
+    "split": "^1.0.1",
+    "unzip": "^0.1.11"
+  },
+  "peerDependencies": {
+    "@porla/porla": "^0.3.0"
+  }
+}
