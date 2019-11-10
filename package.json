@@ -24,9 +24,9 @@
   "dependencies": {
     "request": "^2.88.0",
     "split": "^1.0.1",
-    "unzip": "^0.1.11"
+    "unzipper": "^0.10.5"
   },
   "peerDependencies": {
-    "@porla/porla": "^0.3.0"
+    "porla": "^0.14.0"
   }
 }
